@@ -1,6 +1,6 @@
 Descargar:
 ```
-git clone http://direción.com
+git clone https://github.com/seangel92/docker-lamp.git
 ```
 
 Construir:
