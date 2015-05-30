@@ -1,5 +1,5 @@
 FROM ubuntu:latest
-MAINTAINER Angel Rubi <seangel1992@gmail.com>
+MAINTAINER Angel Rubio <seangel1992@gmail.com>
 
 # Hacer un upgrade y un update
 RUN apt-get -y upgrade
