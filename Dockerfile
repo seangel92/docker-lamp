@@ -22,6 +22,9 @@ COPY  sites-available/  /etc/apache2/sites-available/
 RUN chmod 755 /start.sh
 RUN chmod 755 /etc/apache2/foreground.sh
 
+# Configuración del apache2
+COPY  apache2.conf  /etc/apache2/apache2.conf
+
 # Validar las nuevas webs y restart apache2
 COPY  sites-available/ /etc/apache2/sites-enabled/
 RUN service apache2 restart
