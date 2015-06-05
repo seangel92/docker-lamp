@@ -6,7 +6,7 @@ RUN apt-get -y upgrade
 RUN apt-get update 
 
 # Instalación de paquetes
-RUN DEBIAN_FRONTEND=noninteractive apt-get -y install mysql-client mysql-server apache2 libapache2-mod-php5 pwgen python-setuptools vim-tiny php5-mysql
+RUN DEBIAN_FRONTEND=noninteractive apt-get -y install vim mysql-client mysql-server apache2 libapache2-mod-php5 pwgen python-setuptools vim-tiny php5-mysql
 
 # Encender supervisor y añadir cosas del directoria actual, al contenedor
 RUN easy_install supervisor
